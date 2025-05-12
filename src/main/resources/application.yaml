@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: s3-example
+
+app:
+  amazon-s3-client:
+    accessKeyId: 4W7RFGpUIoxQvIpJekTO
+    secretAccessKey: svpl6aUKFLxK0W8hHS7MUMm1XA6Y9Yr9MxKQGLDk
+    bucketName: test-bucket
+    fileImageName: test-file.jpg
+    fileReportName: report.pdf
+    serviceEndpoint: http://127.0.0.1:9000
